@@ -19,3 +19,8 @@
 ### How to Run
 1. Get the proper dataset in the directory first with name `ratings.csv`
 2. run `CUDA_VISIBLE_DEVICES=0 python <filename>` to run `<filename>` on GPU 0
+
+### Change for new dataset
+
+1. Take the existing code from any of the folder for instance `imdb/warm.py`
+2. Change parameters like `NUM_USERS`, `NUM_ITEMS`, `ENCODED_SIZE`, `NUM_RATINGS` etc according to the new dataset
